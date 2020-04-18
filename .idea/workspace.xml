@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="534c9df3-6249-4a49-8dfe-d67d1be8330b" name="Default Changelist" comment="" />
+    <list default="true" id="534c9df3-6249-4a49-8dfe-d67d1be8330b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/Composite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/src/com/my/demo/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/src/com/my/demo/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/src/com/my/demo/FileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/src/com/my/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/src/com/my/model/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/src/com/my/model/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/src/com/my/model/Leaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +45,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1aUFnAXpVMDQpuADJnGzcGHTrC7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -49,10 +68,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.my.demo" />
       <recent name="com.my.interfaces" />
       <recent name="com.model" />
       <recent name="com.my.model" />
-      <recent name="com.my.demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Factory-Method/src/com/my/mi" />
@@ -72,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.model.Client" />
       <module name="Decorator" />
@@ -99,9 +118,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
-      <module name="Builder" />
+      <module name="Composite" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.my.demo.*" />
@@ -172,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.Test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -211,11 +230,25 @@
       <workItem from="1587105361972" duration="3995000" />
       <workItem from="1587117292334" duration="376000" />
       <workItem from="1587129974287" duration="161000" />
-      <workItem from="1587170792960" duration="5539000" />
+      <workItem from="1587170792960" duration="14869000" />
+      <workItem from="1587206372740" duration="839000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
