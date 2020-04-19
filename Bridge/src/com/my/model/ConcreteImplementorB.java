@@ -5,9 +5,8 @@ package com.my.model;
  * @Author marshal
  * @Date 18/4/20 7:08 PM
  */
-public class ConcreteImplementorA implements Implementor{
+public class ConcreteImplementorB implements Implementor{
     @Override
-    public void method() {
-
+    public void operationImpl() {
     }
 }

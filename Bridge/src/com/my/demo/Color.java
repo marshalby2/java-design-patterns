@@ -5,5 +5,6 @@ package com.my.demo;
  * @Author marshal
  * @Date 18/4/20 9:38 PM
  */
-public class Color {
+public interface Color {
+    String getColor();
 }

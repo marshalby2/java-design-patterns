@@ -5,5 +5,14 @@ package com.my.demo;
  * @Author marshal
  * @Date 18/4/20 9:39 PM
  */
-public class Shape {
+public abstract class Shape {
+
+    protected Color color;
+
+    protected Shape(Color color) {
+        this.color = color;
+    }
+
+    public abstract void show();
+
 }

@@ -6,4 +6,5 @@ package com.my.model;
  * @Date 18/4/20 7:07 PM
  */
 public interface Implementor {
+    void operationImpl();
 }

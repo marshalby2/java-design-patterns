@@ -5,5 +5,9 @@ package com.my.demo;
  * @Author marshal
  * @Date 18/4/20 9:41 PM
  */
-public class Red {
+public class Red implements Color {
+    @Override
+    public String getColor() {
+        return "Red";
+    }
 }
