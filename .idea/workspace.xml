@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534c9df3-6249-4a49-8dfe-d67d1be8330b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UML/src/cpm/my/model/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/src/cpm/my/model/Homework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/src/cpm/my/model/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/src/cpm/my/model/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/Facade.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/demo/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/demo/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/demo/Disk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/demo/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/model/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/model/SubSystemA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/model/SubSystemB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/model/SubSystemC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/demo/Blue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/demo/Blue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/demo/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/demo/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/demo/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/demo/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/demo/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/demo/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/demo/Green.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/demo/Green.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/demo/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/demo/Red.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/demo/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/demo/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/demo/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/demo/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/demo/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/demo/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/model/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/model/Abstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/model/ConcreteImplementorA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/model/ConcreteImplementorA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/model/ConcreteImplementorB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/model/ConcreteImplementorB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/model/Implementor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/model/Implementor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/src/com/my/model/RefinedAbstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/src/com/my/model/RefinedAbstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/src/cpm/my/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/UML/src/cpm/my/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/src/cpm/my/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/UML/src/cpm/my/model/Teacher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.demo.Client" />
       <module name="Bridge" />
@@ -132,6 +123,19 @@
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
       <module name="Composite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
+      <module name="Facade" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.my.demo.*" />
@@ -202,6 +206,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
@@ -242,7 +247,7 @@
       <workItem from="1587129974287" duration="161000" />
       <workItem from="1587170792960" duration="14869000" />
       <workItem from="1587206372740" duration="8610000" />
-      <workItem from="1587259703741" duration="2422000" />
+      <workItem from="1587259703741" duration="6070000" />
     </task>
     <servers />
   </component>
