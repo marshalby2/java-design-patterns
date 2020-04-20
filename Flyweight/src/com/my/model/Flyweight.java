@@ -6,4 +6,5 @@ package com.my.model;
  * @Date 19/4/20 9:28 PM
  */
 public interface Flyweight {
+    void operation();
 }

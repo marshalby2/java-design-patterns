@@ -5,16 +5,17 @@ package com.my.model;
  * @Author marshal
  * @Date 19/4/20 9:28 PM
  */
-public class ConcreteFlyweightA implements Flyweight{
+public class ConcreteFlyweight implements Flyweight{
 
     private String key;
 
-    public ConcreteFlyweightA(String key) {
+    public ConcreteFlyweight(String key) {
         this.key = key;
+        System.out.println("concreteFlyweight " + key + " be created.");
     }
 
     @Override
     public void operation() {
-        System.out.println("This is concreteFlyweightA's method.");
+        System.out.println("This is concreteFlyweight " + this.key + "'s method.");
     }
 }

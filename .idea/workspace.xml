@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534c9df3-6249-4a49-8dfe-d67d1be8330b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Facade/Facade.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/demo/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/demo/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/demo/Disk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/demo/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/demo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/model/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/model/Facade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/model/SubSystemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/model/SubSystemB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/src/com/my/model/SubSystemC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/src/com/my/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flyweight/src/com/my/model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/src/com/my/model/ConcreteFlyweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flyweight/src/com/my/model/ConcreteFlyweight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/src/com/my/model/Flyweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flyweight/src/com/my/model/Flyweight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/src/com/my/model/FlyweightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flyweight/src/com/my/model/FlyweightFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +63,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.my.demo" />
       <recent name="com.my.model" />
+      <recent name="com.my.demo" />
       <recent name="com.my.interfaces" />
       <recent name="com.model" />
     </key>
@@ -93,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.demo.Client" />
       <module name="Bridge" />
@@ -107,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.model.Client" />
-      <module name="Decorator" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.model.Client" />
+      <module name="Flyweight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.model.*" />
+          <option name="PATTERN" value="com.my.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +240,8 @@
       <workItem from="1587129974287" duration="161000" />
       <workItem from="1587170792960" duration="14869000" />
       <workItem from="1587206372740" duration="8610000" />
-      <workItem from="1587259703741" duration="6070000" />
+      <workItem from="1587259703741" duration="12625000" />
+      <workItem from="1587342828656" duration="1020000" />
     </task>
     <servers />
   </component>
