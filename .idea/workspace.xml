@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534c9df3-6249-4a49-8dfe-d67d1be8330b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Factory-Method/src/com/my/mi/.idea/mi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template/Template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template/src/com/my/demo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template/src/com/my/demo/Daily.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template/src/com/my/demo/Holiday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template/src/com/my/demo/Workday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template/src/com/my/model/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/Strategy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/src/com/my/demo/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/src/com/my/demo/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/src/com/my/demo/Mathematical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/src/com/my/demo/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/src/com/my/demo/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/src/com/my/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/src/com/my/model/ConcreteStrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/src/com/my/model/ConcreteStrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/src/com/my/model/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strategy/src/com/my/model/Strategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -82,7 +86,7 @@
       <recent name="$PROJECT_DIR$/Simple-Factory/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="java-design-patterns" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,19 +105,6 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
-    </configuration>
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.demo.Client" />
-      <module name="Bridge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.my.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.model.Client" />
@@ -141,7 +132,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.demo.Client" />
+      <module name="Bridge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
+      <module name="Strategy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
       <module name="Composite" />
       <extension name="coverage">
@@ -154,25 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
       <module name="Facade" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.my.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.model.Test" />
-      <module name="Proxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.my.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +239,7 @@
       <workItem from="1587951659966" duration="846000" />
       <workItem from="1587968936317" duration="7206000" />
       <workItem from="1587986317312" duration="218000" />
-      <workItem from="1588036979863" duration="2393000" />
+      <workItem from="1588036979863" duration="4968000" />
     </task>
     <servers />
   </component>
@@ -255,37 +259,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="768" y="260" width="374" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1587978014668">
+    <state x="768" y="260" width="374" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1588067884509">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="768" y="260" width="374" height="589" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1587978014668" />
-    <state x="714" y="281" width="481" height="547" key="FileChooserDialogImpl" timestamp="1587978149265">
+    <state x="768" y="260" width="374" height="589" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1588067884509" />
+    <state x="714" y="281" width="481" height="547" key="FileChooserDialogImpl" timestamp="1588068332800">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="714" y="281" width="481" height="547" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1587978149265" />
-    <state width="1874" height="115" key="GridCell.Tab.0.bottom" timestamp="1587978074061">
+    <state x="714" y="281" width="481" height="547" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1588068332800" />
+    <state width="1874" height="302" key="GridCell.Tab.0.bottom" timestamp="1588068175012">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="115" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1587978074061" />
-    <state width="1874" height="115" key="GridCell.Tab.0.center" timestamp="1587978074059">
+    <state width="1874" height="302" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1588068175012" />
+    <state width="1874" height="302" key="GridCell.Tab.0.center" timestamp="1588068175012">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="115" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1587978074059" />
-    <state width="1874" height="115" key="GridCell.Tab.0.left" timestamp="1587978074059">
+    <state width="1874" height="302" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1588068175012" />
+    <state width="1874" height="302" key="GridCell.Tab.0.left" timestamp="1588068175011">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="115" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1587978074059" />
-    <state width="1874" height="115" key="GridCell.Tab.0.right" timestamp="1587978074060">
+    <state width="1874" height="302" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1588068175011" />
+    <state width="1874" height="302" key="GridCell.Tab.0.right" timestamp="1588068175012">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="115" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1587978074060" />
-    <state x="441" y="189" width="1037" height="732" key="SettingsEditor" timestamp="1588042704389">
+    <state width="1874" height="302" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1588068175012" />
+    <state x="441" y="189" width="1037" height="732" key="SettingsEditor" timestamp="1588068231349">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="441" y="189" width="1037" height="732" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1588042704389" />
-    <state x="218" y="257" width="1474" height="596" key="new project wizard" timestamp="1587969785399">
+    <state x="441" y="189" width="1037" height="732" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1588068231349" />
+    <state x="218" y="257" width="1474" height="596" key="new project wizard" timestamp="1588066634485">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="218" y="257" width="1474" height="596" key="new project wizard/0.28.1920.1052@0.28.1920.1052" timestamp="1587969785399" />
+    <state x="218" y="257" width="1474" height="596" key="new project wizard/0.28.1920.1052@0.28.1920.1052" timestamp="1588066634485" />
   </component>
 </project>
