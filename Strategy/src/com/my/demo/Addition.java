@@ -1,9 +1,7 @@
 package com.my.demo;
 
 /**
- * @Description TODO
- * @Author marshal
- * @Date 28/4/20 5:55 PM
+ * 加法
  */
 public class Addition implements Mathematical {
     @Override

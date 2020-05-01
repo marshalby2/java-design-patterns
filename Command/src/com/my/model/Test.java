@@ -7,12 +7,9 @@ package com.my.model;
  */
 public class Test {
     public static void main(String[] args) {
-
-
         var receiverA = new ReceiverA();
         var commandA = new ConcreteCommandA(receiverA);
         var invoker = new Invoker(commandA);
         invoker.invoke();
-
     }
 }

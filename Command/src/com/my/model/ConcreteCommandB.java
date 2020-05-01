@@ -1,9 +1,7 @@
 package com.my.model;
 
 /**
- * @Description TODO
- * @Author marshal
- * @Date 29/4/20 8:49 AM
+ * 具体命令A，由接受者A执行命令
  */
 public class ConcreteCommandB implements Command{
 
