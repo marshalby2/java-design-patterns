@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534c9df3-6249-4a49-8dfe-d67d1be8330b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mediator/Mediator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator/src/com/my/model/Colleague.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator/src/com/my/model/ConcreteColleagueA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator/src/com/my/model/ConcreteColleagueB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator/src/com/my/model/ConcreteColleagueC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator/src/com/my/model/ConcreteMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator/src/com/my/model/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator/src/com/my/model/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/Observer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/src/com/my/model/ConcreteObserverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/src/com/my/model/ConcreteObserverB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/src/com/my/model/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/src/com/my/model/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/src/com/my/model/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/src/com/my/model/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -72,19 +71,22 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.my.model" />
-      <recent name="com.my.demo" />
-      <recent name="com.my.interfaces" />
-      <recent name="com.model" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Factory-Method/src/com/my/mi" />
       <recent name="$PROJECT_DIR$/Factory-Method/src" />
       <recent name="$PROJECT_DIR$/Simple-Factory/src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.my.demo" />
+      <recent name="com.my.model" />
+      <recent name="com.my.interfaces" />
+      <recent name="com.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Observer/src/com/my" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="java-design-patterns" />
       <working_directory value="$PROJECT_DIR$" />
@@ -131,11 +133,11 @@
       </method>
     </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
-      <module name="Strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.my.model.Test" />
+      <module name="Observer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.demo.*" />
+          <option name="PATTERN" value="com.my.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,7 +176,33 @@
       <module name="Composite" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.demo.*" />
+          <option name="PATTERN" value="com.my.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
+      <module name="Strategy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
+      <module name="Iterator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,9 +277,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (2)" />
       </list>
@@ -297,7 +325,8 @@
       <workItem from="1588462823529" duration="603000" />
       <workItem from="1589162736458" duration="1196000" />
       <workItem from="1589266014687" duration="720000" />
-      <workItem from="1589504590042" duration="5437000" />
+      <workItem from="1589504590042" duration="6442000" />
+      <workItem from="1589524291189" duration="1396000" />
     </task>
     <servers />
   </component>
@@ -321,10 +350,10 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="555" y="198" width="800" height="714" key="#Plugins/0.28.1920.1052@0.28.1920.1052" timestamp="1589266622642" />
-    <state x="768" y="260" width="571" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1589509344335">
+    <state x="768" y="260" width="571" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1589525347180">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="768" y="260" width="571" height="589" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1589509344335" />
+    <state x="768" y="260" width="571" height="589" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1589525347180" />
     <state x="750" y="292" width="399" height="528" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588324103709">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
@@ -337,30 +366,30 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="714" y="281" width="481" height="547" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1589510924095" />
-    <state width="1874" height="279" key="GridCell.Tab.0.bottom" timestamp="1589510350629">
+    <state width="1874" height="279" key="GridCell.Tab.0.bottom" timestamp="1589524281627">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="279" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1589510350629" />
-    <state width="1874" height="279" key="GridCell.Tab.0.center" timestamp="1589510350629">
+    <state width="1874" height="279" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1589524281627" />
+    <state width="1874" height="279" key="GridCell.Tab.0.center" timestamp="1589524281627">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="279" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1589510350629" />
-    <state width="1874" height="279" key="GridCell.Tab.0.left" timestamp="1589510350629">
+    <state width="1874" height="279" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1589524281627" />
+    <state width="1874" height="279" key="GridCell.Tab.0.left" timestamp="1589524281626">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="279" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1589510350629" />
-    <state width="1874" height="279" key="GridCell.Tab.0.right" timestamp="1589510350629">
+    <state width="1874" height="279" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1589524281626" />
+    <state width="1874" height="279" key="GridCell.Tab.0.right" timestamp="1589524281627">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="279" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1589510350629" />
-    <state x="441" y="189" width="1037" height="732" key="SettingsEditor" timestamp="1589504629890">
+    <state width="1874" height="279" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1589524281627" />
+    <state x="441" y="189" width="1037" height="732" key="SettingsEditor" timestamp="1589524273397">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="441" y="189" width="1037" height="732" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1589504629890" />
-    <state x="218" y="257" width="1474" height="596" key="new project wizard" timestamp="1589506016138">
+    <state x="441" y="189" width="1037" height="732" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1589524273397" />
+    <state x="218" y="257" width="1474" height="596" key="new project wizard" timestamp="1589523912088">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="218" y="257" width="1474" height="596" key="new project wizard/0.28.1920.1052@0.28.1920.1052" timestamp="1589506016138" />
+    <state x="218" y="257" width="1474" height="596" key="new project wizard/0.28.1920.1052@0.28.1920.1052" timestamp="1589523912088" />
     <state x="624" y="199" width="672" height="676" key="search.everywhere.popup" timestamp="1588406090846">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
