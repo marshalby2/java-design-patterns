@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534c9df3-6249-4a49-8dfe-d67d1be8330b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Memento/Memento.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Memento/src/com/my/model/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Memento/src/com/my/model/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Memento/src/com/my/model/Originator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Memento/src/com/my/model/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor/Visitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor/src/com/my/model/ConcreteElementA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor/src/com/my/model/ConcreteElementB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor/src/com/my/model/ConcreteVisitorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor/src/com/my/model/ConcreteVisitorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor/src/com/my/model/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor/src/com/my/model/ObjectStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor/src/com/my/model/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visitor/src/com/my/model/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -75,8 +79,8 @@
       <recent name="$PROJECT_DIR$/Simple-Factory/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.my.demo" />
       <recent name="com.my.model" />
+      <recent name="com.my.demo" />
       <recent name="com.my.interfaces" />
       <recent name="com.model" />
     </key>
@@ -84,7 +88,7 @@
       <recent name="$PROJECT_DIR$/Observer/src/com/my" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (3)">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="java-design-patterns" />
       <working_directory value="$PROJECT_DIR$" />
@@ -119,7 +123,7 @@
     </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.model.Test" />
-      <module name="Observer" />
+      <module name="Visitor" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.my.model.*" />
@@ -133,19 +137,6 @@
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.model.Test" />
       <module name="Mediator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.my.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.model.Test" />
-      <module name="Memento" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.my.model.*" />
@@ -171,7 +162,7 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
-      <module name="Composite" />
+      <module name="Strategy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.my.model.*" />
@@ -183,8 +174,8 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
-      <module name="Strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.my.model.Test" />
+      <module name="Mediator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.my.model.*" />
@@ -198,6 +189,45 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
       <module name="Iterator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.demo.Test" />
+      <module name="Composite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.model.Test" />
+      <module name="Observer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.model.Test" />
+      <module name="Memento" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.my.model.*" />
@@ -275,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +354,7 @@
       <workItem from="1589162736458" duration="1196000" />
       <workItem from="1589266014687" duration="720000" />
       <workItem from="1589504590042" duration="6442000" />
-      <workItem from="1589524291189" duration="3369000" />
+      <workItem from="1589524291189" duration="7119000" />
     </task>
     <servers />
   </component>
@@ -348,10 +378,10 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="555" y="198" width="800" height="714" key="#Plugins/0.28.1920.1052@0.28.1920.1052" timestamp="1589266622642" />
-    <state x="768" y="260" width="571" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1589526689584">
+    <state x="768" y="260" width="571" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1589532371868">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="768" y="260" width="571" height="589" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1589526689584" />
+    <state x="768" y="260" width="571" height="589" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1589532371868" />
     <state x="750" y="292" width="399" height="528" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588324103709">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
@@ -364,30 +394,30 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="714" y="281" width="481" height="547" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1589510924095" />
-    <state width="1015" height="154" key="GridCell.Tab.0.bottom" timestamp="1589527650998">
+    <state width="1015" height="154" key="GridCell.Tab.0.bottom" timestamp="1589532846935">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1015" height="154" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1589527650998" />
-    <state width="1015" height="154" key="GridCell.Tab.0.center" timestamp="1589527650997">
+    <state width="1015" height="154" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1589532846935" />
+    <state width="1015" height="154" key="GridCell.Tab.0.center" timestamp="1589532846934">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1015" height="154" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1589527650997" />
-    <state width="1015" height="154" key="GridCell.Tab.0.left" timestamp="1589527650996">
+    <state width="1015" height="154" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1589532846934" />
+    <state width="1015" height="154" key="GridCell.Tab.0.left" timestamp="1589532846934">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1015" height="154" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1589527650996" />
-    <state width="1015" height="154" key="GridCell.Tab.0.right" timestamp="1589527650997">
+    <state width="1015" height="154" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1589532846934" />
+    <state width="1015" height="154" key="GridCell.Tab.0.right" timestamp="1589532846935">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1015" height="154" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1589527650997" />
+    <state width="1015" height="154" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1589532846935" />
     <state x="441" y="189" width="1037" height="732" key="SettingsEditor" timestamp="1589524273397">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="441" y="189" width="1037" height="732" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1589524273397" />
-    <state x="218" y="257" width="1474" height="596" key="new project wizard" timestamp="1589525880272">
+    <state x="446" y="375" width="1474" height="596" key="new project wizard" timestamp="1589529886613">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="218" y="257" width="1474" height="596" key="new project wizard/0.28.1920.1052@0.28.1920.1052" timestamp="1589525880272" />
+    <state x="446" y="375" width="1474" height="596" key="new project wizard/0.28.1920.1052@0.28.1920.1052" timestamp="1589529886613" />
     <state x="624" y="199" width="672" height="676" key="search.everywhere.popup" timestamp="1588406090846">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
