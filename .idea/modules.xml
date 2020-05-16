@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/Facade/Facade.iml" filepath="$PROJECT_DIR$/Facade/Facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory-Method/Factory-Method.iml" filepath="$PROJECT_DIR$/Factory-Method/Factory-Method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Flyweight/Flyweight.iml" filepath="$PROJECT_DIR$/Flyweight/Flyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interpreter/Interpreter.iml" filepath="$PROJECT_DIR$/Interpreter/Interpreter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Iterator/Iterator.iml" filepath="$PROJECT_DIR$/Iterator/Iterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mediator/Mediator.iml" filepath="$PROJECT_DIR$/Mediator/Mediator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Memento/Memento.iml" filepath="$PROJECT_DIR$/Memento/Memento.iml" />
